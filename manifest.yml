@@ -2,6 +2,6 @@
 applications:
 - name: railspong
   memory: 256M
-  #services:
-  #- mysql
-  random-route: true
+  services:
+  - mysql
+  #random-route: true
